@@ -1,0 +1,40 @@
+.feet-left {
+  position: absolute;
+  width: 53px;
+  height: 12px;
+  background: rgba(99, 162, 185, 1) 100%;
+  bottom: -370px;
+  left: 140px;
+  z-index: 1;
+  border-radius: 75% 74% 62% 58% / 0% 0% 100% 100%;
+  border-style: solid;
+  transform: rotate(8deg);
+  border-color: rgba(99, 162, 185, 1) black black;
+}
+.claw {
+  position: absolute;
+  background: rgb(187, 167, 55);
+  background: linear-gradient(
+    180deg,
+    rgba(187, 167, 55, 1) 40%,
+    rgba(244, 213, 80, 1) 58%
+  );
+
+  border-radius: 100% 100% 100% 100% / 71% 69% 78% 79%;
+}
+
+.claw-left {
+  width: 40px;
+  height: 90px;
+  bottom: -425px;
+  left: 152px;
+  transform: rotate(-50deg);
+}
+
+.claw-right {
+  width: 35px;
+  height: 90px;
+  bottom: -400px;
+  right: 130px;
+  transform: rotate(-60deg);
+}

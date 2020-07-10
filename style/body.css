@@ -2,7 +2,12 @@
   position: absolute;
   width: 180px;
   height: 141px;
-  background-color: #add9dc;
+  background: rgb(159, 212, 220);
+  background: linear-gradient(
+    180deg,
+    rgba(159, 212, 220, 1) 69%,
+    rgba(99, 162, 185, 1) 87%
+  );
   bottom: -360px;
   right: 110px;
   border-radius: 87% 27% 74% 72% / 100% 100% 100% 93%;
@@ -13,7 +18,12 @@
   position: absolute;
   width: 33px;
   height: 81px;
-  background-color: #add9dc;
+  background: rgb(159, 212, 220);
+  background: linear-gradient(
+    180deg,
+    rgba(159, 212, 220, 1) 69%,
+    rgba(99, 162, 185, 1) 87%
+  );
   bottom: -320px;
   right: 85px;
   border-radius: 84% 59% 100% 98% / 25% 100% 100% 42%;
@@ -23,7 +33,12 @@
   position: absolute;
   width: 57px;
   height: 90px;
-  background-color: #add9dc;
+  background: rgb(159, 212, 220);
+  background: linear-gradient(
+    180deg,
+    rgba(159, 212, 220, 1) 69%,
+    rgba(99, 162, 185, 1) 87%
+  );
   bottom: -350px;
   left: 140px;
   z-index: 2;
