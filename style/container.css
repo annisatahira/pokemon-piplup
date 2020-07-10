@@ -28,7 +28,7 @@
   background-color: white;
   border-radius: 44% 51% 47% 52% / 46% 67% 16% 55%;
   transform: rotate(-20deg);
-  z-index: 2;
+  z-index: 3;
   bottom: -205px;
   right: 95px;
 }
@@ -125,7 +125,7 @@
     rgba(225, 194, 59, 1) 100%
   );
   border-radius: 50% / 70% 70% 30% 30%;
-  z-index: 3;
+  z-index: 4;
   transform: rotate(4deg);
   bottom: -158px;
   right: 49px;
@@ -140,7 +140,7 @@
   right: -11px;
   bottom: 36px;
   transform: rotate(-25deg);
-  z-index: 2;
+  z-index: 3;
   bottom: -165px;
   right: 51px;
 }

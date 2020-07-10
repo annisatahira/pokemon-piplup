@@ -9,7 +9,7 @@
   border-style: solid;
   border-radius: 25% 49% 37% 63% / 9% 43% 48% 77%;
   transform: rotate(30deg);
-  z-index: 1;
+  z-index: 2;
 }
 
 .neck-left {
@@ -20,4 +20,5 @@
   bottom: -240px;
   right: 80px;
   border-radius: 25% 46% 37% 62% / 9% 71% 28% 49%;
+  z-index: 1;
 }
