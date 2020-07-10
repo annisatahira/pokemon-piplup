@@ -19,6 +19,7 @@
   border-style: solid;
   transform: translate(50%);
   overflow: hidden;
+  z-index: 1;
 }
 
 .eye-wrapper {
