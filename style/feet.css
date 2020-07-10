@@ -1,16 +1,17 @@
 .feet-left {
   position: absolute;
   width: 53px;
-  height: 12px;
+  height: 5px;
   background: rgba(99, 162, 185, 1) 100%;
-  bottom: -370px;
+  bottom: -362px;
   left: 140px;
   z-index: 1;
   border-radius: 75% 74% 62% 58% / 0% 0% 100% 100%;
   border-style: solid;
-  transform: rotate(8deg);
+  transform: rotate(10deg);
   border-color: rgba(99, 162, 185, 1) black black;
 }
+
 .claw {
   position: absolute;
   background: rgb(187, 167, 55);
