@@ -3,6 +3,7 @@
   width: 222px;
   height: 199px;
   background-color: #4186bd;
+
   border-radius: 50%;
   transform: translate(50%);
   overflow: hidden;
@@ -27,7 +28,12 @@
   position: absolute;
   width: 123px;
   height: 125px;
-  background-color: white;
+  background: rgb(179, 191, 203);
+  background: linear-gradient(
+    0deg,
+    rgba(179, 191, 203, 1) 7%,
+    rgba(255, 255, 255, 1) 33%
+  );
   border-radius: 44% 51% 47% 52% / 46% 67% 16% 55%;
   transform: rotate(-20deg);
   z-index: 4;
