@@ -74,7 +74,7 @@
 .forehead {
   position: absolute;
   width: 25px;
-  height: 25px;
+  height: 30px;
   background-color: #94ccda;
   z-index: 1;
   border-color: black #94ccda #94ccda black;
@@ -83,24 +83,24 @@
 }
 
 .forehead-center {
-  right: 10px;
-  transform: rotate(30deg);
-  bottom: 90px;
+  right: 6px;
+  transform: rotate(45deg);
+  bottom: 88px;
 }
 
 .forehead-left {
-  width: 10px;
-  height: 37px;
-  right: -22px;
-  border-color: black #94ccda #94ccda;
-  bottom: 88px;
-  transform: rotate(-68deg);
+  right: 41px;
+  transform: rotate(12deg);
+  bottom: 75px;
 }
 
 .forehead-right {
-  right: 38px;
-  transform: rotate(5deg);
-  bottom: 80px;
+  width: 10px;
+  height: 37px;
+  right: -25px;
+  border-color: black #94ccda #94ccda;
+  bottom: 88px;
+  transform: rotate(-68deg);
 }
 
 .forehead-full {
