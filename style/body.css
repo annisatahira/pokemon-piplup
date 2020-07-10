@@ -1,9 +1,9 @@
 .body {
   position: absolute;
-  width: 163px;
-  height: 131px;
+  width: 180px;
+  height: 141px;
   background-color: #add9dc;
-  bottom: -350px;
+  bottom: -360px;
   right: 110px;
   border-radius: 87% 27% 74% 72% / 100% 100% 100% 93%;
   z-index: 1;
@@ -16,5 +16,19 @@
   background-color: #add9dc;
   bottom: -320px;
   right: 85px;
-  border-radius: 87% 65% 94% 100% / 100% 100% 100% 93%;
+  border-radius: 84% 59% 100% 98% / 25% 100% 100% 42%;
+}
+
+.wing-left {
+  position: absolute;
+  width: 57px;
+  height: 90px;
+  background-color: #add9dc;
+  bottom: -350px;
+  left: 140px;
+  z-index: 2;
+  border-radius: 84% 59% 100% 100% / 68% 100% 100% 100%;
+  transform: rotate(10deg);
+  border-style: solid;
+  border-color: #add9dc black black black;
 }
