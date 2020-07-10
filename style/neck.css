@@ -1,24 +1,24 @@
 .neck-right {
   position: absolute;
-  width: 110px;
-  height: 95px;
+  width: 120px;
+  height: 85px;
   background-color: #4186bd;
-  bottom: -280px;
-  right: 140px;
+  bottom: -270px;
+  right: 130px;
   border-color: #4186bd black black #4186bd;
   border-style: solid;
   border-radius: 25% 49% 37% 63% / 9% 43% 48% 77%;
-  transform: rotate(30deg);
-  z-index: 2;
+  transform: rotate(40deg);
+  z-index: 3;
 }
 
 .neck-left {
   position: absolute;
-  width: 70px;
-  height: 52px;
+  width: 80px;
+  height: 62px;
   background-color: #4186bd;
-  bottom: -240px;
+  bottom: -245px;
   right: 80px;
   border-radius: 25% 46% 37% 62% / 9% 71% 28% 49%;
-  z-index: 1;
+  z-index: 2;
 }

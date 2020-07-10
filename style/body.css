@@ -5,4 +5,16 @@
   background-color: #add9dc;
   bottom: -350px;
   right: 110px;
+  border-radius: 87% 27% 74% 72% / 100% 100% 100% 93%;
+  z-index: 1;
+}
+
+.wing-right {
+  position: absolute;
+  width: 33px;
+  height: 81px;
+  background-color: #add9dc;
+  bottom: -320px;
+  right: 85px;
+  border-radius: 87% 65% 94% 100% / 100% 100% 100% 93%;
 }
