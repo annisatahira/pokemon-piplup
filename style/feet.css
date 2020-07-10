@@ -30,6 +30,7 @@
   bottom: -425px;
   left: 152px;
   transform: rotate(-50deg);
+  overflow: hidden;
 }
 
 .claw-right {
@@ -38,4 +39,28 @@
   bottom: -400px;
   right: 130px;
   transform: rotate(-60deg);
+  overflow: hidden;
+}
+
+.finger {
+  position: absolute;
+  width: 10px;
+  background-color: rgba(244, 213, 80, 1);
+  bottom: 0;
+  border-radius: 0% 0% 100% 100% / 100% 100% 100% 100%;
+  border-style: solid;
+}
+
+.finger-left {
+  transform: rotate(4deg);
+  border-color: rgba(244, 213, 80, 1) black rgba(244, 213, 80, 1)
+    rgba(244, 213, 80, 1);
+  height: 30px;
+}
+
+.finger-right {
+  height: 25px;
+  right: 5px;
+  border-color: rgba(244, 213, 80, 1) black rgba(244, 213, 80, 1)
+    rgba(244, 213, 80, 1);
 }
