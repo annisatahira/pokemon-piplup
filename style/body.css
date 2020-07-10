@@ -12,6 +12,7 @@
   right: 110px;
   border-radius: 87% 27% 100% 85% / 100% 100% 100% 93%;
   z-index: 1;
+  overflow: hidden;
 }
 
 .wing-right {
@@ -46,4 +47,24 @@
   transform: rotate(10deg);
   border-style: solid;
   border-color: #add9dc black black black;
+}
+
+.chest {
+  position: absolute;
+  width: 30px;
+  height: 42px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+}
+
+.chest-left {
+  right: 40px;
+  bottom: 40px;
+  transform: rotate(10deg);
+}
+
+.chest-right {
+  right: -20px;
+  bottom: 65px;
+  transform: rotate(18deg);
 }
