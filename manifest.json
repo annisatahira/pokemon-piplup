@@ -2,7 +2,7 @@
   "name": "Pokemon's Piplup",
   "short_name": "Piplup",
   "description": "Piplup pure html css",
-  "start_url": "/index.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#4186bd",
   "theme_color": "#4186bd",
