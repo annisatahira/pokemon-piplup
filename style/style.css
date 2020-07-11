@@ -1,9 +1,20 @@
-@import "container.css";
 @import "head.css";
 @import "neck.css";
 @import "body.css";
 @import "back.css";
 @import "feet.css";
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  margin-top: 100px;
+  width: 400px;
+}
+
+.solid-border {
+  border-color: black;
+  border-style: solid;
+}
 
 .piplup-hover {
   position: relative;
