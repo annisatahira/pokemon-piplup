@@ -3,11 +3,10 @@
   width: 222px;
   height: 199px;
   background-color: #4186bd;
-
   border-radius: 50%;
   transform: translate(50%);
   overflow: hidden;
-  z-index: 1;
+  z-index: 3;
 }
 
 .head-white-shadow {
@@ -36,7 +35,7 @@
   );
   border-radius: 44% 51% 47% 52% / 46% 67% 16% 55%;
   transform: rotate(-20deg);
-  z-index: 4;
+  z-index: 6;
   bottom: -205px;
   right: 95px;
 }

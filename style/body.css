@@ -11,7 +11,7 @@
   bottom: -360px;
   right: 110px;
   border-radius: 87% 27% 100% 85% / 100% 100% 100% 93%;
-  z-index: 1;
+  z-index: 3;
   overflow: hidden;
 }
 
@@ -22,8 +22,8 @@
   background: rgb(159, 212, 220);
   background: linear-gradient(
     180deg,
-    rgba(159, 212, 220, 1) 69%,
-    rgba(99, 162, 185, 1) 87%
+    rgba(99, 162, 185, 1) 57%,
+    rgb(111, 177, 187) 69%
   );
   bottom: -320px;
   right: 85px;
@@ -42,11 +42,11 @@
   );
   bottom: -350px;
   left: 140px;
-  z-index: 2;
+  z-index: 4;
   border-radius: 84% 59% 100% 100% / 68% 100% 100% 100%;
   transform: rotate(10deg);
   border-style: solid;
-  border-color: #add9dc black black black;
+  border-color: rgba(159, 212, 220, 1) black black black;
 }
 
 .chest {

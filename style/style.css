@@ -4,3 +4,24 @@
 @import "body.css";
 @import "back.css";
 @import "feet.css";
+
+.piplup-hover {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  animation: hovering 5s ease-in-out infinite running;
+}
+
+@keyframes hovering {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  25%,
+  75% {
+    transform: translateY(-8px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+}

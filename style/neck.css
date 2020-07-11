@@ -3,13 +3,13 @@
   width: 120px;
   height: 85px;
   background-color: #4186bd;
-  bottom: -270px;
-  right: 130px;
+  bottom: -262px;
+  right: 112px;
   border-color: #4186bd black black #4186bd;
   border-style: solid;
   border-radius: 25% 49% 37% 63% / 9% 43% 48% 77%;
   transform: rotate(40deg);
-  z-index: 3;
+  z-index: 5;
 }
 
 .neck-right {
